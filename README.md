@@ -3,9 +3,9 @@
 ## Data Files
 The data is organized into two folders `aggregated-features` and `sequential-features`. Each file is named according to the data collection session id.
 
-`aggregated-features`: contains the features aggregated separately for the window of 2 seconds before the end of each utterance and for the window starting from the end until the 2 seconds that followed. The keywords `before`/`after` in column name indicate the window.
+The `aggregated-features` folder contains data where features are aggregated separately for the window of 2 seconds before the end of each utterance and for the window starting from the end until the 2 seconds that followed. In the column names, the terms `before` and `after` indicate the respective time window.
 
-`sequential-features`: contains the sequential features sampled using a sliding window at a rate of 4 Hz during 4-second window (2 seconds before until 2 seconds after the end of each utterance).
+The `sequential-features` folder contains the sequential features sampled using a sliding window.These features are sampled at a rate of 4 Hz over a 4-second window, spanning from 2 seconds before to 2 seconds after the end of each utterance.
 
 ### Utterance info
 
