@@ -38,7 +38,7 @@ The features were computed from the Kinect body joints. For a detailed definitio
 
 | name                     | participant       | axes  | description                                            |
 |--------------------------|-------------------|-------|--------------------------------------------------------|
-| `kinect_spine`           | speaker/listeners | x/y   | `SPINE_CHEST` joint positio in relation to the `PELVIS` |
+| `kinect_spine`           | speaker/listeners | x/y   | `SPINE_CHEST` joint position in relation to the `PELVIS` |
 | `kinect_spine_grad`      | speaker/listeners | x/y   | temporal difference of `kinect_spine`                  |
 | `kinect_left_hand`       | speaker/listeners | x/y/z | `HAND_LEFT` joint position in relation to `SPINE_CHEST`        |
 | `kinect_left_hand_grad`  | speaker/listeners | x/y/z | temporal difference of `kinect_left_hand`              |
